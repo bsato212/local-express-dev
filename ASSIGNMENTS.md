@@ -7,3 +7,18 @@
 - Using the local Web development setup, build an HTML form that uses the Express server as its target action.
 - Add an input field to the form with name and id attributes set to name.
 - After the submit button is clicked, the form should send the contents of the input field to the Express server.
+
+# Assignment 3
+- Rework both ends of the previous assignment to work with a POST request.
+- This will require a new POST handler in Express as well as form updates.
+
+# Assignment 4
+- Read on MDN about XHR (AJAX) requests: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest.
+- Using local web dev create page that triggers a XHR GET request to the Random Cat API (https://aws.random.cat/meow).
+- Read the received body and parse it as JSON.
+- Log the parsed body in the console.
+- Retrieve the image URL from the body and create a new image element in the page, passing the received image ULR as its source attribute.
+
+# Assignment 5
+- Rework the code from the previous assignment to consume data from the Shiba Inu API (http://shibe.online/api/shibes?count=3&urls=true&httpsUrls=false).
+- This API call will return 3 images, make sure to create three different image tags and display all images.
