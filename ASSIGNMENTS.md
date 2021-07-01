@@ -24,5 +24,5 @@
 - Retrieve the image URL from the body and create a new image element in the page, passing the received image ULR as its source attribute.
 
 # Assignment 5
-- Rework the code from the previous assignment to consume data from the Shiba Inu API (http://shibe.online/api/shibes?count=3&urls=true&httpsUrls=false).
+- Rework the code from the previous assignment to consume data from the Lorem Picsum API (https://picsum.photos/v2/list?limit=3).
 - This API call will return 3 images, make sure to create three different image tags and display all images.
