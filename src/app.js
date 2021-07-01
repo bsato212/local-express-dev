@@ -13,7 +13,6 @@ app.get('/', function (req, res) {
   console.log(`Query string parameters [${JSON.stringify(req.query, null, '  ')}]`);
   console.log(`Request headers [${JSON.stringify(req.headers, null, '  ')}]`);
   
-  //const name = 'World';
   let name = '';
   if(req.query.name != null) {
     name = req.query.name;
