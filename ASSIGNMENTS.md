@@ -1,3 +1,7 @@
+- https://github.com/bsato212/local-express-dev
+- http://expressjs.com/en/api.html#req
+- http://127.0.0.1:8080?name=Test
+
 # Assignment 1
 - The local Express development setup currently returns a fixed Hello World string
 - Update it to read a name parameter from the query string (GET) and use it in the returned string.

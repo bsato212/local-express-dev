@@ -12,8 +12,13 @@ app.get('/', function (req, res) {
   // Logs query string parameters and headers
   console.log(`Query string parameters [${JSON.stringify(req.query, null, '  ')}]`);
   console.log(`Request headers [${JSON.stringify(req.headers, null, '  ')}]`);
-
-  const name = 'World';
+  
+  let name = '';
+  if(req.query.name != null) {
+    name = req.query.name;
+  } else {
+    name = 'World';
+  }
 
   res.status(200);
   res.send(`Hello ${name}!`);
