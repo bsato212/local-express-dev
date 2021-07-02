@@ -8,14 +8,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Creates a GET handler for /
-app.get('/', function (req, res) {
+app.post('/', function (req, res) {
   // Logs query string parameters and headers
-  console.log(`Query string parameters [${JSON.stringify(req.query, null, '  ')}]`);
+  console.log(`Query string parameters [${JSON.stringify(req.body, null, '  ')}]`);
   console.log(`Request headers [${JSON.stringify(req.headers, null, '  ')}]`);
   
   let name = '';
-  if(req.query.name != null) {
-    name = req.query.name;
+  if(req.body.name != "") {
+    name = req.body.name;
   } else {
     name = 'World';
   }
