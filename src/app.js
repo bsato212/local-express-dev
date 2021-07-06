@@ -7,14 +7,33 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+/*
 // Creates a GET handler for /
+app.get('/', function (req, res) {
+  // Logs query string parameters and headers
+  console.log(`Query string parameters [${JSON.stringify(req.query, null, '  ')}]`);
+  console.log(`Request headers [${JSON.stringify(req.headers, null, '  ')}]`);
+  
+  let name = '';
+  if(req.query.name == '') {
+    name = req.query.name;
+  } else {
+    name = 'World';
+  }
+
+  res.status(200);
+  res.send(`Hello ${name}!`);
+});
+*/
+
+// Creates a POST handler for /
 app.post('/', function (req, res) {
   // Logs query string parameters and headers
   console.log(`Query string parameters [${JSON.stringify(req.body, null, '  ')}]`);
   console.log(`Request headers [${JSON.stringify(req.headers, null, '  ')}]`);
   
   let name = '';
-  if(req.body.name != "") {
+  if(req.body.name != '') {
     name = req.body.name;
   } else {
     name = 'World';
