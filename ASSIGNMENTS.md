@@ -26,3 +26,10 @@
 # Assignment 5
 - Rework the code from the previous assignment to consume data from the Lorem Picsum API (https://picsum.photos/v2/list?limit=3).
 - This API call will return 3 images, make sure to create three different image tags and display all images.
+
+# Assignment 6
+- Rework the code from the previous assignment to make three different requests to the Random Cat API instead of single request that returns 3 images.
+
+# Assignment 7
+-  Read on MDN about the Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- Rework the code from the previous assignment to use Fetch instead of XHR.
