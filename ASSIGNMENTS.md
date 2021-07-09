@@ -31,5 +31,17 @@
 - Rework the code from the previous assignment to make three different requests to the Random Cat API instead of single request that returns 3 images.
 
 # Assignment 7
--  Read on MDN about the Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- Read on MDN about the Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - Rework the code from the previous assignment to use Fetch instead of XHR.
+
+# Assignment 8
+- Access the shared videos folder and download arrows.zip
+- Watch videos on var/let/const and arrow functions
+- Rework the previous assignment to use let and const
+
+# Assignment 9
+- Access the shared videos folder and download promises.zip
+- Watch videos on promises
+- Create a promise that returns a random number after 2 seconds
+- To demonstrate this promise in action, add a button to a page and have it fire the promise on its event handler
+- When the promise resolves, append an item to an unordered list element in the page containing the returned random number
