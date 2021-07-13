@@ -45,3 +45,12 @@
 - Create a promise that returns a random number after 2 seconds
 - To demonstrate this promise in action, add a button to a page and have it fire the promise on its event handler
 - When the promise resolves, append an item to an unordered list element in the page containing the returned random number
+
+# Assignment 10
+- Rework the code from assignment #6 to use an XHR request wrapped in a Promise.
+- XHR Promise should resolve on status code 200
+- XHR Promise should reject on non-200 status code, errors or timeouts
+- Chain the Promises to make requests serially
+
+# Assignment 11
+- Rework the code from the previous assignment to make all three requests in parallel
