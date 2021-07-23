@@ -54,3 +54,18 @@
 
 # Assignment 11
 - Rework the code from the previous assignment to make all three requests in parallel
+
+# Assignment 12
+- Using Local Express Dev set up a folder for static assets and add HTML/CSS/JS files there.
+- Enable static server in Express: http://expressjs.com/en/starter/static-files.html
+- Set the static route to root
+- Verify the static server is serving index.html as expected
+
+# Assignment 13
+- Rework the previous assignment to serve a dynamically generated index.html file in the root route
+- Move the static server route to `/static`
+- Enable a view engine in Express (user either HBS or Pug) https://expressjs.com/en/guide/using-template-engines.html
+- Add a GET route to root and have it serve HTML from a view
+
+# Assignment 14
+- Rework the previous assignment to log all request headers in the dynamically generated root route
