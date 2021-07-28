@@ -9,9 +9,9 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
   res.render('index', {
-    title: 'Assignment 13',
-    header1: 'View engine HTML',
-    p1: 'index.pug'
+    title: 'Assignment 14',
+    header1: 'View engine HTML - req headers',
+    p1: JSON.stringify(req.headers, null, " ")
   });
 });
 
