@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.render('index', {
     title: 'Assignment 14',
     header1: 'View engine HTML - req headers',
-    p1: JSON.stringify(req.headers)
+    p1: JSON.stringify(req.headers, null, " ")
   });
 });
 
